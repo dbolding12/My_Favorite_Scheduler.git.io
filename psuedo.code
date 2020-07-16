@@ -1,0 +1,29 @@
+Need to use moment.js for date and time.
+    - Connect moment js 
+    - read documentation 
+    - focus on us in the browser
+User will need to save events for each hour of the day
+Update HTML and CSS using jquery 
+Calender Functionality
+    - open browser current day or date is diplayed at the top
+    - time block for standard business hours 
+    - color code timeblock, for present, past, future and booking 
+    - allow user to enter a new event and modify a current event
+    - user can save the event 
+        - use local storage to save the event details
+    - user can click into the event and view the details of the event 
+    - new or modified event is displayed upon refresh
+//Code for later....
+     var current = currentHour + "am"
+        console.log(current);
+        var timeSlot = [23,9,10,11,12,13,14,15,16,17];
+    console.log(timeSlot);
+  var currentHourT = timeSlot.includes(currentHour);
+        console.log(currentHourT);
+  var inputClass = $("input").attr("class");
+        console.log(inputClass);
+  var currentHourFormControl = "form-control"+" "+currentHour;
+        console.log(currentHourFormControl);
+//Row
+      $(".container").append('<div id="test"> computer </div>')
+
