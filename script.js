@@ -31,11 +31,12 @@ $(document).ready(function () {
         $(".4pm").css("background-color", "lightsalmon");
     } if (currentHour > 17) {
         $(".5pm").css("background-color", "lightsalmon");
-    }
-    else {
-        $(".12pm").css("background-color", "lightgreen")
-    };
+    } 
+    //Lunch Time Block...
+    $(".12pm").css("background-color", "lightgreen");
 
+    
+    
     //Save time and input to local storage. Change the color when the save button is clicked. 
     $(".saveButton").on("click", function () {
         var hour = $(this).parent().attr("id");
@@ -46,14 +47,15 @@ $(document).ready(function () {
         var color = $(this).parent().siblings("#description").css("background-color", "lightblue")
             //pull from local storage....
     })
- //set values of inputs
-    //for loop through inputs; method called .each in jquery. all need to have them sane class to target.
-    //inside loop, first figure out input class 8am and etc.. then, use 8am to check local storage for a matching key.
-    //then will have a value then take and set to the value of the input. get used to check. 
-    
-    localStorage.getItem(hour);   
-    
-        for (i = 0; i < 0; i++) {
-            $(".textfield").each();
-          }
+
+        //When the user refreshes the entiries show up.  
+            $(".textfield").each(function(){
+                console.log($(this).attr("data-time"));
+                var dataTime = $(this).attr("data-time");
+                var task = localStorage.getItem(dataTime);
+                $(this).val(task);
+
+                
+            });
+          
 });

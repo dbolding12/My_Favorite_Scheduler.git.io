@@ -27,3 +27,12 @@ Calender Functionality
 //Row
       $(".container").append('<div id="test"> computer </div>')
 
+Coding Needs
+ //set values of inputs
+//for loop through inputs; method called .each in jquery. all need to have them sane class to target.
+//inside loop, first figure out input class 8am and etc.. then, use 8am to check local storage for a matching key.
+//then will have a value then take and set to the value of the input. get used to check. 
+$( "li" ).each(function( index ) {
+    console.log( index + ": " + $( this ).text() );
+ });
+

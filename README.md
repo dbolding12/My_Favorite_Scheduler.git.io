@@ -1,3 +1,13 @@
+# My Favorite Calender
+The project involved creating a calender that allows a user to save and record there scheduled events. The calender highlights the calender salmon when the hour has elapsed and remains transparent when the time period is a future iteration. The calender only displays curent working hours of 8am to 5pm. 12pm is blocked out with green so you can remeber to try and eat lunch because you are so busy. 
+
+Calender Link: https://dbolding12.github.io/my_favorite_scheduler.github.io/
+
+Screenshots:
+
+![start](image/Image.png)
+
+
 # 05 Third-Party APIs: Work Day Scheduler
 
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
