@@ -5,7 +5,7 @@ Calender Link: https://dbolding12.github.io/my_favorite_scheduler.github.io/
 
 Screenshots:
 
-![start](images/Image.png)
+![calender](images/image.png)
 
 
 # 05 Third-Party APIs: Work Day Scheduler
